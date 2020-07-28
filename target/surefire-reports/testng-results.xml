@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="98444" started-at="2020-07-28T13:35:04Z" finished-at="2020-07-28T13:36:42Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="98444" started-at="2020-07-28T13:35:04Z" finished-at="2020-07-28T13:36:42Z">
+      <class name="UseCaseTest">
+        <test-method status="PASS" signature="initializeClass()[pri:0, instance:UseCaseTest@4439f31e]" name="initializeClass" is-config="true" duration-ms="3173" started-at="2020-07-28T15:36:09Z" finished-at="2020-07-28T15:36:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeClass -->
+        <test-method status="PASS" signature="testCreate4UseCases()[pri:0, instance:UseCaseTest@4439f31e]" name="testCreate4UseCases" duration-ms="16778" started-at="2020-07-28T15:36:13Z" finished-at="2020-07-28T15:36:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreate4UseCases -->
+        <test-method status="PASS" signature="turnOff()[pri:0, instance:UseCaseTest@4439f31e]" name="turnOff" is-config="true" duration-ms="727" started-at="2020-07-28T15:36:29Z" finished-at="2020-07-28T15:36:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- turnOff -->
+        <test-method status="PASS" signature="initializeClass()[pri:0, instance:UseCaseTest@4439f31e]" name="initializeClass" is-config="true" duration-ms="3183" started-at="2020-07-28T15:36:30Z" finished-at="2020-07-28T15:36:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeClass -->
+        <test-method status="PASS" signature="testUpdateUseCaseFields()[pri:0, instance:UseCaseTest@4439f31e]" name="testUpdateUseCaseFields" duration-ms="7498" started-at="2020-07-28T15:36:33Z" finished-at="2020-07-28T15:36:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUseCaseFields -->
+        <test-method status="PASS" signature="turnOff()[pri:0, instance:UseCaseTest@4439f31e]" name="turnOff" is-config="true" duration-ms="1477" started-at="2020-07-28T15:36:41Z" finished-at="2020-07-28T15:36:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- turnOff -->
+      </class> <!-- UseCaseTest -->
+      <class name="ForgotPasswordTest">
+        <test-method status="PASS" signature="initializeClass()[pri:0, instance:ForgotPasswordTest@1810399e]" name="initializeClass" is-config="true" duration-ms="4159" started-at="2020-07-28T15:35:04Z" finished-at="2020-07-28T15:35:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeClass -->
+        <test-method status="PASS" signature="testChangePassword()[pri:0, instance:ForgotPasswordTest@1810399e]" name="testChangePassword" duration-ms="4148" started-at="2020-07-28T15:35:08Z" finished-at="2020-07-28T15:35:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangePassword -->
+        <test-method status="PASS" signature="turnOff()[pri:0, instance:ForgotPasswordTest@1810399e]" name="turnOff" is-config="true" duration-ms="792" started-at="2020-07-28T15:35:12Z" finished-at="2020-07-28T15:35:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- turnOff -->
+      </class> <!-- ForgotPasswordTest -->
+      <class name="LoginTest">
+        <test-method status="PASS" signature="initializeClass()[pri:0, instance:LoginTest@32d992b2]" name="initializeClass" is-config="true" duration-ms="3218" started-at="2020-07-28T15:35:13Z" finished-at="2020-07-28T15:35:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeClass -->
+        <test-method status="PASS" signature="testLoginLogout()[pri:0, instance:LoginTest@32d992b2]" name="testLoginLogout" duration-ms="2984" started-at="2020-07-28T15:35:16Z" finished-at="2020-07-28T15:35:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginLogout -->
+        <test-method status="PASS" signature="turnOff()[pri:0, instance:LoginTest@32d992b2]" name="turnOff" is-config="true" duration-ms="660" started-at="2020-07-28T15:35:19Z" finished-at="2020-07-28T15:35:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- turnOff -->
+        <test-method status="PASS" signature="initializeClass()[pri:0, instance:LoginTest@32d992b2]" name="initializeClass" is-config="true" duration-ms="3344" started-at="2020-07-28T15:35:20Z" finished-at="2020-07-28T15:35:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeClass -->
+        <test-method status="PASS" signature="testLoginWithWrongPassword()[pri:0, instance:LoginTest@32d992b2]" name="testLoginWithWrongPassword" duration-ms="2271" started-at="2020-07-28T15:35:23Z" finished-at="2020-07-28T15:35:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithWrongPassword -->
+        <test-method status="PASS" signature="turnOff()[pri:0, instance:LoginTest@32d992b2]" name="turnOff" is-config="true" duration-ms="711" started-at="2020-07-28T15:35:25Z" finished-at="2020-07-28T15:35:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- turnOff -->
+        <test-method status="PASS" signature="initializeClass()[pri:0, instance:LoginTest@32d992b2]" name="initializeClass" is-config="true" duration-ms="3222" started-at="2020-07-28T15:35:26Z" finished-at="2020-07-28T15:35:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeClass -->
+        <test-method status="PASS" signature="testLoginWithWrongUsername()[pri:0, instance:LoginTest@32d992b2]" name="testLoginWithWrongUsername" duration-ms="1999" started-at="2020-07-28T15:35:29Z" finished-at="2020-07-28T15:35:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithWrongUsername -->
+        <test-method status="PASS" signature="turnOff()[pri:0, instance:LoginTest@32d992b2]" name="turnOff" is-config="true" duration-ms="718" started-at="2020-07-28T15:35:31Z" finished-at="2020-07-28T15:35:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- turnOff -->
+        <test-method status="PASS" signature="initializeClass()[pri:0, instance:LoginTest@32d992b2]" name="initializeClass" is-config="true" duration-ms="3258" started-at="2020-07-28T15:35:32Z" finished-at="2020-07-28T15:35:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeClass -->
+        <test-method status="PASS" signature="testLoginWithoutCredentials()[pri:0, instance:LoginTest@32d992b2]" name="testLoginWithoutCredentials" duration-ms="1909" started-at="2020-07-28T15:35:35Z" finished-at="2020-07-28T15:35:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithoutCredentials -->
+        <test-method status="PASS" signature="turnOff()[pri:0, instance:LoginTest@32d992b2]" name="turnOff" is-config="true" duration-ms="676" started-at="2020-07-28T15:35:37Z" finished-at="2020-07-28T15:35:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- turnOff -->
+      </class> <!-- LoginTest -->
+      <class name="RestAPITest">
+        <test-method status="PASS" signature="initializeClass()[pri:0, instance:RestAPITest@215be6bb]" name="initializeClass" is-config="true" duration-ms="3289" started-at="2020-07-28T15:35:38Z" finished-at="2020-07-28T15:35:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeClass -->
+        <test-method status="PASS" signature="testDELETEUseCase()[pri:0, instance:RestAPITest@215be6bb]" name="testDELETEUseCase" duration-ms="4304" started-at="2020-07-28T15:35:41Z" finished-at="2020-07-28T15:35:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDELETEUseCase -->
+        <test-method status="PASS" signature="turnOff()[pri:0, instance:RestAPITest@215be6bb]" name="turnOff" is-config="true" duration-ms="962" started-at="2020-07-28T15:35:46Z" finished-at="2020-07-28T15:35:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- turnOff -->
+        <test-method status="PASS" signature="initializeClass()[pri:0, instance:RestAPITest@215be6bb]" name="initializeClass" is-config="true" duration-ms="3314" started-at="2020-07-28T15:35:46Z" finished-at="2020-07-28T15:35:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeClass -->
+        <test-method status="PASS" signature="testGETAllUseCases()[pri:0, instance:RestAPITest@215be6bb]" name="testGETAllUseCases" duration-ms="897" started-at="2020-07-28T15:35:50Z" finished-at="2020-07-28T15:35:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGETAllUseCases -->
+        <test-method status="PASS" signature="turnOff()[pri:0, instance:RestAPITest@215be6bb]" name="turnOff" is-config="true" duration-ms="800" started-at="2020-07-28T15:35:51Z" finished-at="2020-07-28T15:35:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- turnOff -->
+        <test-method status="PASS" signature="initializeClass()[pri:0, instance:RestAPITest@215be6bb]" name="initializeClass" is-config="true" duration-ms="3235" started-at="2020-07-28T15:35:51Z" finished-at="2020-07-28T15:35:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeClass -->
+        <test-method status="PASS" signature="testPOSTCreateUseCase()[pri:0, instance:RestAPITest@215be6bb]" name="testPOSTCreateUseCase" duration-ms="897" started-at="2020-07-28T15:35:55Z" finished-at="2020-07-28T15:35:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPOSTCreateUseCase -->
+        <test-method status="PASS" signature="turnOff()[pri:0, instance:RestAPITest@215be6bb]" name="turnOff" is-config="true" duration-ms="721" started-at="2020-07-28T15:35:56Z" finished-at="2020-07-28T15:35:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- turnOff -->
+        <test-method status="PASS" signature="initializeClass()[pri:0, instance:RestAPITest@215be6bb]" name="initializeClass" is-config="true" duration-ms="3255" started-at="2020-07-28T15:35:56Z" finished-at="2020-07-28T15:36:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeClass -->
+        <test-method status="PASS" signature="testPOSTLogin()[pri:0, instance:RestAPITest@215be6bb]" name="testPOSTLogin" duration-ms="553" started-at="2020-07-28T15:36:00Z" finished-at="2020-07-28T15:36:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPOSTLogin -->
+        <test-method status="PASS" signature="turnOff()[pri:0, instance:RestAPITest@215be6bb]" name="turnOff" is-config="true" duration-ms="772" started-at="2020-07-28T15:36:00Z" finished-at="2020-07-28T15:36:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- turnOff -->
+        <test-method status="PASS" signature="initializeClass()[pri:0, instance:RestAPITest@215be6bb]" name="initializeClass" is-config="true" duration-ms="3172" started-at="2020-07-28T15:36:01Z" finished-at="2020-07-28T15:36:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeClass -->
+        <test-method status="PASS" signature="testPOSTLoginWithInvalidPassword()[pri:0, instance:RestAPITest@215be6bb]" name="testPOSTLoginWithInvalidPassword" duration-ms="308" started-at="2020-07-28T15:36:04Z" finished-at="2020-07-28T15:36:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPOSTLoginWithInvalidPassword -->
+        <test-method status="PASS" signature="turnOff()[pri:0, instance:RestAPITest@215be6bb]" name="turnOff" is-config="true" duration-ms="659" started-at="2020-07-28T15:36:04Z" finished-at="2020-07-28T15:36:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- turnOff -->
+        <test-method status="PASS" signature="initializeClass()[pri:0, instance:RestAPITest@215be6bb]" name="initializeClass" is-config="true" duration-ms="3293" started-at="2020-07-28T15:36:05Z" finished-at="2020-07-28T15:36:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeClass -->
+        <test-method status="PASS" signature="testPOSTLoginWithWrongEmail()[pri:0, instance:RestAPITest@215be6bb]" name="testPOSTLoginWithWrongEmail" duration-ms="314" started-at="2020-07-28T15:36:08Z" finished-at="2020-07-28T15:36:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPOSTLoginWithWrongEmail -->
+        <test-method status="PASS" signature="turnOff()[pri:0, instance:RestAPITest@215be6bb]" name="turnOff" is-config="true" duration-ms="746" started-at="2020-07-28T15:36:09Z" finished-at="2020-07-28T15:36:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- turnOff -->
+      </class> <!-- RestAPITest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

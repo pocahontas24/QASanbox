@@ -1,0 +1,9 @@
+base\BasePage.class
+base\RestAPIBase.class
+page\UseCasePage.class
+page\WelcomePage.class
+page\DashboardPage.class
+util\PropertiesUtil.class
+page\ForgotPasswordPage.class
+page\CreateUseCasePage.class
+page\LoginPage.class
