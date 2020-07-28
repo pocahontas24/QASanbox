@@ -14,6 +14,7 @@
 * Open command line and navigate to the root folder of the project, where is pom.xml
 * Command: mvn clean test -DsuiteXmlFile=testng
 * Test results are in the target folder : 
+
 		-> emailable-report.html
 		
 		-> surefire-reports\Command line suite\Command line test.html 
